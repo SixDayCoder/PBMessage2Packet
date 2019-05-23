@@ -1,0 +1,20 @@
+package ProtobufPacket;
+
+message CG_LOGIN_IN
+{
+	required int32  id = 1;
+	required string account = 2;
+	required string password = 3;
+}
+
+message CG_MOVE
+{
+	required float posx = 1;
+	required float posy = 2;
+}
+
+message GC_MOVE_RET
+{
+	required float posx = 1;
+	required float posy = 2;
+}
