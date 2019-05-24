@@ -25,9 +25,9 @@
 	    enum PACKET_ID
 	    {
 		    PACKET_ID_NONE = 0,
-		    PACKET_ID_CG_LOGIN_IN = 1,
-		    PACKET_ID_CG_MOVE = 2,
-		    PACKET_ID_GC_MOVE_RET
+		    PACKET_ID_CS_LOGIN = 1,
+		    PACKET_ID_CS_MOVE = 2,
+		    PACKET_ID_SC_MOVE_RET = 3,
 		    PACKET_ID_MAX,
 	    };
 

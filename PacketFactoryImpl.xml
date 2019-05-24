@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<root>
+
+    <comment>
+    /*Auto Generated.Do Not Modify.*/
+    </comment>
+
+    <factoryimpl>
+    #include "PacketFactory.h"
+    ${IncludePacketHeader}
+
+    namespace packets
+    {
+
+	    PackeFactory gPacketFactory;
+
+	    void
+	    PackeFactory::Init()
+	    {
+		    m_PacketIdList.reserve(PACKET_ID::PACKET_ID_MAX);
+		    for (int i = 0; i &lt; PACKET_ID::PACKET_ID_MAX; ++i) {
+    			m_PacketIdList.push_back(0);
+		    }
+	    }
+
+	    packets::PacketPtr
+	    PackeFactory::CreatePacket(PacketId_t nPacketId)
+	    {
+		    if (nPacketId &lt;= PACKET_ID::PACKET_ID_NONE || nPacketId &gt;= PACKET_ID::PACKET_ID_MAX) {
+			    return nullptr;
+		    }
+		    switch (nPacketId)
+		    {
+            ${CaseCreatePacket}
+		    default:
+			    return nullptr;
+		    }
+		    return nullptr;
+	    }
+    }
+    </factoryimpl>
+</root>
