@@ -1,0 +1,49 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<root>
+    <comment>
+    /*Auto Generated.Do Not Modify.*/
+    </comment>
+
+    <includeheader>
+    #ifndef  SIXDAY_PACKETDEFINE_H_
+    #define  SIXDAY_PACKETDEFINE_H_
+
+    #include &lt;stdint.h&gt;
+    #if defined (PLATFORM_WINDOWS)
+    #include &lt;WinSock2.h&gt;
+    #include &lt;WS2tcpip.h&gt;
+    #elif defined (PLATFORM_LINUX)
+    #include &lt;sys/epoll.h&gt;
+    #include &lt;sys/socket.h&gt;
+    #include &lt;netinet/in.h&gt;
+    #include &lt;arpa/inet.h&gt;
+    #include &lt;fcntl.h&gt;
+    #include &lt;unistd.h&gt;
+    #endif
+
+    typedef uint16_t PacketId_t;
+    #define PACKET_HEADER_LEN_SIZE   (sizeof(uint32_t))
+    #define PACKET_HEADER_ID_SIZE    (sizeof(PacketId_t))
+    #define PACKET_HEADER_TOTAL_SIZE (PACKET_HEADER_LEN_SIZE + PACKET_HEADER_ID_SIZE)
+
+    namespace packets
+    {
+	    enum PACKET_ID
+	    {
+		    PACKET_ID_NONE = 0,
+		    ${PacketNameEnum}
+		    PACKET_ID_MAX,
+	    };
+
+	    enum PACKET_EXECUTE_RET_CODE
+	    {
+		    PACKET_EXECUTE_RET_CODE_ERROR    = 0,
+		    PACKET_EXECUTE_RET_CODE_CONTINUE = 1,
+	    };
+    }
+
+    #endif // SIXDAY_PACKETDEFINE_H_
+    </includeheader>
+
+</root>

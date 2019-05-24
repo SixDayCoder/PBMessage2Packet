@@ -1,10 +1,17 @@
+<?xml version = "1.0" encoding = "utf-8"?>
 
+<root>
+    <comment>
+    /*Auto Generated.Do Not Modify.*/
+    </comment>
+
+    <packetbaseheader>
     #ifndef SIXDAY_PACKET_H_
     #define SIXDAY_PACKET_H_
 
     #include "PacketDefine.h"
     #include "google/protobuf/message.h"
-    #include  <memory>
+    #include  &lt;memory&gt;
 
     namespace packets
     {
@@ -12,11 +19,11 @@
 	    {
 	    public:
 
-		    google::protobuf::Message& m_PacketData;
+		    google::protobuf::Message&amp; m_PacketData;
 
 	    public:
 
-		    explicit Packet(google::protobuf::Message& rPacketData) : m_PacketData(rPacketData) {}
+		    explicit Packet(google::protobuf::Message&amp; rPacketData) : m_PacketData(rPacketData) {}
 
 		    virtual ~Packet() {}
 
@@ -34,8 +41,10 @@
 		    GetPacketId() const = 0;
 
 	    };
-	    using PacketPtr = std::shared_ptr<Packet>;
+	    using PacketPtr = std::shared_ptr&lt;Packet&gt;;
     }
 
     #endif
-    
+    </packetbaseheader>
+
+</root>

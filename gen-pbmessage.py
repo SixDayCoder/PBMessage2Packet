@@ -11,11 +11,11 @@ output_packet_factory_header_file_name = "PacketFactory.h"
 output_packet_factory_impl_file_name = "PacketFactory.cpp"
 
 # template path
-template_pbmessage_define_path = r".\PacketDefine.xml"
-template_pbmessage_packet_base_path = r".\PacketBaseHeader.xml"
-template_pbmessage_packet_path = r".\PacketHeader.xml"
-template_pbmessage_packet_factory_header = r".\PacketFactoryHeader.xml"
-template_pbmessage_packet_factory_impl = r".\PacketFactoryImpl.xml"
+template_pbmessage_define_path = r".\template\PacketDefine.xml"
+template_pbmessage_packet_base_path = r".\template\PacketBaseHeader.xml"
+template_pbmessage_packet_path = r".\template\PacketHeader.xml"
+template_pbmessage_packet_factory_header = r".\template\PacketFactoryHeader.xml"
+template_pbmessage_packet_factory_impl = r".\template\PacketFactoryImpl.xml"
 
 
 # xml tag
