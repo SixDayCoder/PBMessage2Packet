@@ -3,19 +3,19 @@ import os
 import xml.etree.ElementTree as ET
 
 # path
-input_path = r".\PBMessage.proto"
-output_dir = r".\packets"
+input_path = r"PBMessage.proto"
+output_dir = r"packets"
 output_packet_base_packet_file_name = "Packet.h"
 output_packet_define_file_name = "PacketDefine.h"
 output_packet_factory_header_file_name = "PacketFactory.h"
 output_packet_factory_impl_file_name = "PacketFactory.cpp"
 
 # template path
-template_pbmessage_define_path = r".\template\PacketDefine.xml"
-template_pbmessage_packet_base_path = r".\template\PacketBaseHeader.xml"
-template_pbmessage_packet_path = r".\template\PacketHeader.xml"
-template_pbmessage_packet_factory_header = r".\template\PacketFactoryHeader.xml"
-template_pbmessage_packet_factory_impl = r".\template\PacketFactoryImpl.xml"
+template_pbmessage_define_path = r"template/PacketDefine.xml"
+template_pbmessage_packet_base_path = r"template/PacketBaseHeader.xml"
+template_pbmessage_packet_path = r"template/PacketHeader.xml"
+template_pbmessage_packet_factory_header = r"template/PacketFactoryHeader.xml"
+template_pbmessage_packet_factory_impl = r"template/PacketFactoryImpl.xml"
 
 
 # xml tag
