@@ -17,13 +17,13 @@
 
 # How To Use
 <br>1.add your packet into your PBMessage.proto</br>
-<br>Notice:the packet form client to server should startwith "CS" and the packet from server to client should startwith "SC"</br>
+<br>Notice:the packet form client to server should startwith "CG" and the packet from server to client should startwith "GC"</br>
 <br>also you can change the name style by modified </br>
 ```
 gen-pbmessage.py
 line:39
 # startwith
-packet_start_with = ["CS", "SC"]
+packet_start_with = ["CG", "GC"]
 ```
 <br>2.Winodws -> execute CreatePacket.bat</br>
 <br>3.Linux-> execute CreatePacket.sh</br>
