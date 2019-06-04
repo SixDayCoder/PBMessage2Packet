@@ -1,19 +1,19 @@
 package ProtobufPacket;
 
-message CS_LOGIN
+message CG_LOGIN
 {
 	required int32  id = 1;
 	required string account = 2;
 	required string password = 3;
 }
 
-message CS_MOVE
+message CG_MOVE
 {
 	required float posx = 1;
 	required float posy = 2;
 }
 
-message SC_MOVE_RET
+message GC_MOVE_RET
 {
 	required float posx = 1;
 	required float posy = 2;

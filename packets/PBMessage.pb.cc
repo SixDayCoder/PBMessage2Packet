@@ -20,15 +20,15 @@ namespace ProtobufPacket {
 
 namespace {
 
-const ::google::protobuf::Descriptor* CS_LOGIN_descriptor_ = NULL;
+const ::google::protobuf::Descriptor* CG_LOGIN_descriptor_ = NULL;
 const ::google::protobuf::internal::GeneratedMessageReflection*
-  CS_LOGIN_reflection_ = NULL;
-const ::google::protobuf::Descriptor* CS_MOVE_descriptor_ = NULL;
+  CG_LOGIN_reflection_ = NULL;
+const ::google::protobuf::Descriptor* CG_MOVE_descriptor_ = NULL;
 const ::google::protobuf::internal::GeneratedMessageReflection*
-  CS_MOVE_reflection_ = NULL;
-const ::google::protobuf::Descriptor* SC_MOVE_RET_descriptor_ = NULL;
+  CG_MOVE_reflection_ = NULL;
+const ::google::protobuf::Descriptor* GC_MOVE_RET_descriptor_ = NULL;
 const ::google::protobuf::internal::GeneratedMessageReflection*
-  SC_MOVE_RET_reflection_ = NULL;
+  GC_MOVE_RET_reflection_ = NULL;
 
 }  // namespace
 
@@ -39,55 +39,55 @@ void protobuf_AssignDesc_PBMessage_2eproto() {
     ::google::protobuf::DescriptorPool::generated_pool()->FindFileByName(
       "PBMessage.proto");
   GOOGLE_CHECK(file != NULL);
-  CS_LOGIN_descriptor_ = file->message_type(0);
-  static const int CS_LOGIN_offsets_[3] = {
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CS_LOGIN, id_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CS_LOGIN, account_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CS_LOGIN, password_),
+  CG_LOGIN_descriptor_ = file->message_type(0);
+  static const int CG_LOGIN_offsets_[3] = {
+    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CG_LOGIN, id_),
+    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CG_LOGIN, account_),
+    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CG_LOGIN, password_),
   };
-  CS_LOGIN_reflection_ =
+  CG_LOGIN_reflection_ =
     new ::google::protobuf::internal::GeneratedMessageReflection(
-      CS_LOGIN_descriptor_,
-      CS_LOGIN::default_instance_,
-      CS_LOGIN_offsets_,
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CS_LOGIN, _has_bits_[0]),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CS_LOGIN, _unknown_fields_),
+      CG_LOGIN_descriptor_,
+      CG_LOGIN::default_instance_,
+      CG_LOGIN_offsets_,
+      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CG_LOGIN, _has_bits_[0]),
+      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CG_LOGIN, _unknown_fields_),
       -1,
       ::google::protobuf::DescriptorPool::generated_pool(),
       ::google::protobuf::MessageFactory::generated_factory(),
-      sizeof(CS_LOGIN));
-  CS_MOVE_descriptor_ = file->message_type(1);
-  static const int CS_MOVE_offsets_[2] = {
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CS_MOVE, posx_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CS_MOVE, posy_),
+      sizeof(CG_LOGIN));
+  CG_MOVE_descriptor_ = file->message_type(1);
+  static const int CG_MOVE_offsets_[2] = {
+    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CG_MOVE, posx_),
+    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CG_MOVE, posy_),
   };
-  CS_MOVE_reflection_ =
+  CG_MOVE_reflection_ =
     new ::google::protobuf::internal::GeneratedMessageReflection(
-      CS_MOVE_descriptor_,
-      CS_MOVE::default_instance_,
-      CS_MOVE_offsets_,
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CS_MOVE, _has_bits_[0]),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CS_MOVE, _unknown_fields_),
+      CG_MOVE_descriptor_,
+      CG_MOVE::default_instance_,
+      CG_MOVE_offsets_,
+      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CG_MOVE, _has_bits_[0]),
+      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(CG_MOVE, _unknown_fields_),
       -1,
       ::google::protobuf::DescriptorPool::generated_pool(),
       ::google::protobuf::MessageFactory::generated_factory(),
-      sizeof(CS_MOVE));
-  SC_MOVE_RET_descriptor_ = file->message_type(2);
-  static const int SC_MOVE_RET_offsets_[2] = {
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SC_MOVE_RET, posx_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SC_MOVE_RET, posy_),
+      sizeof(CG_MOVE));
+  GC_MOVE_RET_descriptor_ = file->message_type(2);
+  static const int GC_MOVE_RET_offsets_[2] = {
+    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GC_MOVE_RET, posx_),
+    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GC_MOVE_RET, posy_),
   };
-  SC_MOVE_RET_reflection_ =
+  GC_MOVE_RET_reflection_ =
     new ::google::protobuf::internal::GeneratedMessageReflection(
-      SC_MOVE_RET_descriptor_,
-      SC_MOVE_RET::default_instance_,
-      SC_MOVE_RET_offsets_,
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SC_MOVE_RET, _has_bits_[0]),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SC_MOVE_RET, _unknown_fields_),
+      GC_MOVE_RET_descriptor_,
+      GC_MOVE_RET::default_instance_,
+      GC_MOVE_RET_offsets_,
+      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GC_MOVE_RET, _has_bits_[0]),
+      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GC_MOVE_RET, _unknown_fields_),
       -1,
       ::google::protobuf::DescriptorPool::generated_pool(),
       ::google::protobuf::MessageFactory::generated_factory(),
-      sizeof(SC_MOVE_RET));
+      sizeof(GC_MOVE_RET));
 }
 
 namespace {
@@ -101,22 +101,22 @@ inline void protobuf_AssignDescriptorsOnce() {
 void protobuf_RegisterTypes(const ::std::string&) {
   protobuf_AssignDescriptorsOnce();
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
-    CS_LOGIN_descriptor_, &CS_LOGIN::default_instance());
+    CG_LOGIN_descriptor_, &CG_LOGIN::default_instance());
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
-    CS_MOVE_descriptor_, &CS_MOVE::default_instance());
+    CG_MOVE_descriptor_, &CG_MOVE::default_instance());
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
-    SC_MOVE_RET_descriptor_, &SC_MOVE_RET::default_instance());
+    GC_MOVE_RET_descriptor_, &GC_MOVE_RET::default_instance());
 }
 
 }  // namespace
 
 void protobuf_ShutdownFile_PBMessage_2eproto() {
-  delete CS_LOGIN::default_instance_;
-  delete CS_LOGIN_reflection_;
-  delete CS_MOVE::default_instance_;
-  delete CS_MOVE_reflection_;
-  delete SC_MOVE_RET::default_instance_;
-  delete SC_MOVE_RET_reflection_;
+  delete CG_LOGIN::default_instance_;
+  delete CG_LOGIN_reflection_;
+  delete CG_MOVE::default_instance_;
+  delete CG_MOVE_reflection_;
+  delete GC_MOVE_RET::default_instance_;
+  delete GC_MOVE_RET_reflection_;
 }
 
 void protobuf_AddDesc_PBMessage_2eproto() {
@@ -126,19 +126,19 @@ void protobuf_AddDesc_PBMessage_2eproto() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-    "\n\017PBMessage.proto\022\016ProtobufPacket\"9\n\010CS_"
+    "\n\017PBMessage.proto\022\016ProtobufPacket\"9\n\010CG_"
     "LOGIN\022\n\n\002id\030\001 \002(\005\022\017\n\007account\030\002 \002(\t\022\020\n\010pa"
-    "ssword\030\003 \002(\t\"%\n\007CS_MOVE\022\014\n\004posx\030\001 \002(\002\022\014\n"
-    "\004posy\030\002 \002(\002\")\n\013SC_MOVE_RET\022\014\n\004posx\030\001 \002(\002"
+    "ssword\030\003 \002(\t\"%\n\007CG_MOVE\022\014\n\004posx\030\001 \002(\002\022\014\n"
+    "\004posy\030\002 \002(\002\")\n\013GC_MOVE_RET\022\014\n\004posx\030\001 \002(\002"
     "\022\014\n\004posy\030\002 \002(\002", 174);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "PBMessage.proto", &protobuf_RegisterTypes);
-  CS_LOGIN::default_instance_ = new CS_LOGIN();
-  CS_MOVE::default_instance_ = new CS_MOVE();
-  SC_MOVE_RET::default_instance_ = new SC_MOVE_RET();
-  CS_LOGIN::default_instance_->InitAsDefaultInstance();
-  CS_MOVE::default_instance_->InitAsDefaultInstance();
-  SC_MOVE_RET::default_instance_->InitAsDefaultInstance();
+  CG_LOGIN::default_instance_ = new CG_LOGIN();
+  CG_MOVE::default_instance_ = new CG_MOVE();
+  GC_MOVE_RET::default_instance_ = new GC_MOVE_RET();
+  CG_LOGIN::default_instance_->InitAsDefaultInstance();
+  CG_MOVE::default_instance_->InitAsDefaultInstance();
+  GC_MOVE_RET::default_instance_->InitAsDefaultInstance();
   ::google::protobuf::internal::OnShutdown(&protobuf_ShutdownFile_PBMessage_2eproto);
 }
 
@@ -152,28 +152,28 @@ struct StaticDescriptorInitializer_PBMessage_2eproto {
 // ===================================================================
 
 #ifndef _MSC_VER
-const int CS_LOGIN::kIdFieldNumber;
-const int CS_LOGIN::kAccountFieldNumber;
-const int CS_LOGIN::kPasswordFieldNumber;
+const int CG_LOGIN::kIdFieldNumber;
+const int CG_LOGIN::kAccountFieldNumber;
+const int CG_LOGIN::kPasswordFieldNumber;
 #endif  // !_MSC_VER
 
-CS_LOGIN::CS_LOGIN()
+CG_LOGIN::CG_LOGIN()
   : ::google::protobuf::Message() {
   SharedCtor();
-  // @@protoc_insertion_point(constructor:ProtobufPacket.CS_LOGIN)
+  // @@protoc_insertion_point(constructor:ProtobufPacket.CG_LOGIN)
 }
 
-void CS_LOGIN::InitAsDefaultInstance() {
+void CG_LOGIN::InitAsDefaultInstance() {
 }
 
-CS_LOGIN::CS_LOGIN(const CS_LOGIN& from)
+CG_LOGIN::CG_LOGIN(const CG_LOGIN& from)
   : ::google::protobuf::Message() {
   SharedCtor();
   MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:ProtobufPacket.CS_LOGIN)
+  // @@protoc_insertion_point(copy_constructor:ProtobufPacket.CG_LOGIN)
 }
 
-void CS_LOGIN::SharedCtor() {
+void CG_LOGIN::SharedCtor() {
   ::google::protobuf::internal::GetEmptyString();
   _cached_size_ = 0;
   id_ = 0;
@@ -182,12 +182,12 @@ void CS_LOGIN::SharedCtor() {
   ::memset(_has_bits_, 0, sizeof(_has_bits_));
 }
 
-CS_LOGIN::~CS_LOGIN() {
-  // @@protoc_insertion_point(destructor:ProtobufPacket.CS_LOGIN)
+CG_LOGIN::~CG_LOGIN() {
+  // @@protoc_insertion_point(destructor:ProtobufPacket.CG_LOGIN)
   SharedDtor();
 }
 
-void CS_LOGIN::SharedDtor() {
+void CG_LOGIN::SharedDtor() {
   if (account_ != &::google::protobuf::internal::GetEmptyStringAlreadyInited()) {
     delete account_;
   }
@@ -198,28 +198,28 @@ void CS_LOGIN::SharedDtor() {
   }
 }
 
-void CS_LOGIN::SetCachedSize(int size) const {
+void CG_LOGIN::SetCachedSize(int size) const {
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
   _cached_size_ = size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
 }
-const ::google::protobuf::Descriptor* CS_LOGIN::descriptor() {
+const ::google::protobuf::Descriptor* CG_LOGIN::descriptor() {
   protobuf_AssignDescriptorsOnce();
-  return CS_LOGIN_descriptor_;
+  return CG_LOGIN_descriptor_;
 }
 
-const CS_LOGIN& CS_LOGIN::default_instance() {
+const CG_LOGIN& CG_LOGIN::default_instance() {
   if (default_instance_ == NULL) protobuf_AddDesc_PBMessage_2eproto();
   return *default_instance_;
 }
 
-CS_LOGIN* CS_LOGIN::default_instance_ = NULL;
+CG_LOGIN* CG_LOGIN::default_instance_ = NULL;
 
-CS_LOGIN* CS_LOGIN::New() const {
-  return new CS_LOGIN;
+CG_LOGIN* CG_LOGIN::New() const {
+  return new CG_LOGIN;
 }
 
-void CS_LOGIN::Clear() {
+void CG_LOGIN::Clear() {
   if (_has_bits_[0 / 32] & 7) {
     id_ = 0;
     if (has_account()) {
@@ -237,11 +237,11 @@ void CS_LOGIN::Clear() {
   mutable_unknown_fields()->Clear();
 }
 
-bool CS_LOGIN::MergePartialFromCodedStream(
+bool CG_LOGIN::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:ProtobufPacket.CS_LOGIN)
+  // @@protoc_insertion_point(parse_start:ProtobufPacket.CG_LOGIN)
   for (;;) {
     ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
     tag = p.first;
@@ -309,17 +309,17 @@ bool CS_LOGIN::MergePartialFromCodedStream(
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:ProtobufPacket.CS_LOGIN)
+  // @@protoc_insertion_point(parse_success:ProtobufPacket.CG_LOGIN)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:ProtobufPacket.CS_LOGIN)
+  // @@protoc_insertion_point(parse_failure:ProtobufPacket.CG_LOGIN)
   return false;
 #undef DO_
 }
 
-void CS_LOGIN::SerializeWithCachedSizes(
+void CG_LOGIN::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:ProtobufPacket.CS_LOGIN)
+  // @@protoc_insertion_point(serialize_start:ProtobufPacket.CG_LOGIN)
   // required int32 id = 1;
   if (has_id()) {
     ::google::protobuf::internal::WireFormatLite::WriteInt32(1, this->id(), output);
@@ -349,12 +349,12 @@ void CS_LOGIN::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
         unknown_fields(), output);
   }
-  // @@protoc_insertion_point(serialize_end:ProtobufPacket.CS_LOGIN)
+  // @@protoc_insertion_point(serialize_end:ProtobufPacket.CG_LOGIN)
 }
 
-::google::protobuf::uint8* CS_LOGIN::SerializeWithCachedSizesToArray(
+::google::protobuf::uint8* CG_LOGIN::SerializeWithCachedSizesToArray(
     ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:ProtobufPacket.CS_LOGIN)
+  // @@protoc_insertion_point(serialize_to_array_start:ProtobufPacket.CG_LOGIN)
   // required int32 id = 1;
   if (has_id()) {
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(1, this->id(), target);
@@ -386,11 +386,11 @@ void CS_LOGIN::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
         unknown_fields(), target);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:ProtobufPacket.CS_LOGIN)
+  // @@protoc_insertion_point(serialize_to_array_end:ProtobufPacket.CG_LOGIN)
   return target;
 }
 
-int CS_LOGIN::ByteSize() const {
+int CG_LOGIN::ByteSize() const {
   int total_size = 0;
 
   if (_has_bits_[0 / 32] & (0xffu << (0 % 32))) {
@@ -427,10 +427,10 @@ int CS_LOGIN::ByteSize() const {
   return total_size;
 }
 
-void CS_LOGIN::MergeFrom(const ::google::protobuf::Message& from) {
+void CG_LOGIN::MergeFrom(const ::google::protobuf::Message& from) {
   GOOGLE_CHECK_NE(&from, this);
-  const CS_LOGIN* source =
-    ::google::protobuf::internal::dynamic_cast_if_available<const CS_LOGIN*>(
+  const CG_LOGIN* source =
+    ::google::protobuf::internal::dynamic_cast_if_available<const CG_LOGIN*>(
       &from);
   if (source == NULL) {
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
@@ -439,7 +439,7 @@ void CS_LOGIN::MergeFrom(const ::google::protobuf::Message& from) {
   }
 }
 
-void CS_LOGIN::MergeFrom(const CS_LOGIN& from) {
+void CG_LOGIN::MergeFrom(const CG_LOGIN& from) {
   GOOGLE_CHECK_NE(&from, this);
   if (from._has_bits_[0 / 32] & (0xffu << (0 % 32))) {
     if (from.has_id()) {
@@ -455,25 +455,25 @@ void CS_LOGIN::MergeFrom(const CS_LOGIN& from) {
   mutable_unknown_fields()->MergeFrom(from.unknown_fields());
 }
 
-void CS_LOGIN::CopyFrom(const ::google::protobuf::Message& from) {
+void CG_LOGIN::CopyFrom(const ::google::protobuf::Message& from) {
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
-void CS_LOGIN::CopyFrom(const CS_LOGIN& from) {
+void CG_LOGIN::CopyFrom(const CG_LOGIN& from) {
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
-bool CS_LOGIN::IsInitialized() const {
+bool CG_LOGIN::IsInitialized() const {
   if ((_has_bits_[0] & 0x00000007) != 0x00000007) return false;
 
   return true;
 }
 
-void CS_LOGIN::Swap(CS_LOGIN* other) {
+void CG_LOGIN::Swap(CG_LOGIN* other) {
   if (other != this) {
     std::swap(id_, other->id_);
     std::swap(account_, other->account_);
@@ -484,11 +484,11 @@ void CS_LOGIN::Swap(CS_LOGIN* other) {
   }
 }
 
-::google::protobuf::Metadata CS_LOGIN::GetMetadata() const {
+::google::protobuf::Metadata CG_LOGIN::GetMetadata() const {
   protobuf_AssignDescriptorsOnce();
   ::google::protobuf::Metadata metadata;
-  metadata.descriptor = CS_LOGIN_descriptor_;
-  metadata.reflection = CS_LOGIN_reflection_;
+  metadata.descriptor = CG_LOGIN_descriptor_;
+  metadata.reflection = CG_LOGIN_reflection_;
   return metadata;
 }
 
@@ -496,67 +496,67 @@ void CS_LOGIN::Swap(CS_LOGIN* other) {
 // ===================================================================
 
 #ifndef _MSC_VER
-const int CS_MOVE::kPosxFieldNumber;
-const int CS_MOVE::kPosyFieldNumber;
+const int CG_MOVE::kPosxFieldNumber;
+const int CG_MOVE::kPosyFieldNumber;
 #endif  // !_MSC_VER
 
-CS_MOVE::CS_MOVE()
+CG_MOVE::CG_MOVE()
   : ::google::protobuf::Message() {
   SharedCtor();
-  // @@protoc_insertion_point(constructor:ProtobufPacket.CS_MOVE)
+  // @@protoc_insertion_point(constructor:ProtobufPacket.CG_MOVE)
 }
 
-void CS_MOVE::InitAsDefaultInstance() {
+void CG_MOVE::InitAsDefaultInstance() {
 }
 
-CS_MOVE::CS_MOVE(const CS_MOVE& from)
+CG_MOVE::CG_MOVE(const CG_MOVE& from)
   : ::google::protobuf::Message() {
   SharedCtor();
   MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:ProtobufPacket.CS_MOVE)
+  // @@protoc_insertion_point(copy_constructor:ProtobufPacket.CG_MOVE)
 }
 
-void CS_MOVE::SharedCtor() {
+void CG_MOVE::SharedCtor() {
   _cached_size_ = 0;
   posx_ = 0;
   posy_ = 0;
   ::memset(_has_bits_, 0, sizeof(_has_bits_));
 }
 
-CS_MOVE::~CS_MOVE() {
-  // @@protoc_insertion_point(destructor:ProtobufPacket.CS_MOVE)
+CG_MOVE::~CG_MOVE() {
+  // @@protoc_insertion_point(destructor:ProtobufPacket.CG_MOVE)
   SharedDtor();
 }
 
-void CS_MOVE::SharedDtor() {
+void CG_MOVE::SharedDtor() {
   if (this != default_instance_) {
   }
 }
 
-void CS_MOVE::SetCachedSize(int size) const {
+void CG_MOVE::SetCachedSize(int size) const {
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
   _cached_size_ = size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
 }
-const ::google::protobuf::Descriptor* CS_MOVE::descriptor() {
+const ::google::protobuf::Descriptor* CG_MOVE::descriptor() {
   protobuf_AssignDescriptorsOnce();
-  return CS_MOVE_descriptor_;
+  return CG_MOVE_descriptor_;
 }
 
-const CS_MOVE& CS_MOVE::default_instance() {
+const CG_MOVE& CG_MOVE::default_instance() {
   if (default_instance_ == NULL) protobuf_AddDesc_PBMessage_2eproto();
   return *default_instance_;
 }
 
-CS_MOVE* CS_MOVE::default_instance_ = NULL;
+CG_MOVE* CG_MOVE::default_instance_ = NULL;
 
-CS_MOVE* CS_MOVE::New() const {
-  return new CS_MOVE;
+CG_MOVE* CG_MOVE::New() const {
+  return new CG_MOVE;
 }
 
-void CS_MOVE::Clear() {
+void CG_MOVE::Clear() {
 #define OFFSET_OF_FIELD_(f) (reinterpret_cast<char*>(      \
-  &reinterpret_cast<CS_MOVE*>(16)->f) - \
+  &reinterpret_cast<CG_MOVE*>(16)->f) - \
    reinterpret_cast<char*>(16))
 
 #define ZR_(first, last) do {                              \
@@ -574,11 +574,11 @@ void CS_MOVE::Clear() {
   mutable_unknown_fields()->Clear();
 }
 
-bool CS_MOVE::MergePartialFromCodedStream(
+bool CG_MOVE::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:ProtobufPacket.CS_MOVE)
+  // @@protoc_insertion_point(parse_start:ProtobufPacket.CG_MOVE)
   for (;;) {
     ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
     tag = p.first;
@@ -627,17 +627,17 @@ bool CS_MOVE::MergePartialFromCodedStream(
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:ProtobufPacket.CS_MOVE)
+  // @@protoc_insertion_point(parse_success:ProtobufPacket.CG_MOVE)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:ProtobufPacket.CS_MOVE)
+  // @@protoc_insertion_point(parse_failure:ProtobufPacket.CG_MOVE)
   return false;
 #undef DO_
 }
 
-void CS_MOVE::SerializeWithCachedSizes(
+void CG_MOVE::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:ProtobufPacket.CS_MOVE)
+  // @@protoc_insertion_point(serialize_start:ProtobufPacket.CG_MOVE)
   // required float posx = 1;
   if (has_posx()) {
     ::google::protobuf::internal::WireFormatLite::WriteFloat(1, this->posx(), output);
@@ -652,12 +652,12 @@ void CS_MOVE::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
         unknown_fields(), output);
   }
-  // @@protoc_insertion_point(serialize_end:ProtobufPacket.CS_MOVE)
+  // @@protoc_insertion_point(serialize_end:ProtobufPacket.CG_MOVE)
 }
 
-::google::protobuf::uint8* CS_MOVE::SerializeWithCachedSizesToArray(
+::google::protobuf::uint8* CG_MOVE::SerializeWithCachedSizesToArray(
     ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:ProtobufPacket.CS_MOVE)
+  // @@protoc_insertion_point(serialize_to_array_start:ProtobufPacket.CG_MOVE)
   // required float posx = 1;
   if (has_posx()) {
     target = ::google::protobuf::internal::WireFormatLite::WriteFloatToArray(1, this->posx(), target);
@@ -672,11 +672,11 @@ void CS_MOVE::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
         unknown_fields(), target);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:ProtobufPacket.CS_MOVE)
+  // @@protoc_insertion_point(serialize_to_array_end:ProtobufPacket.CG_MOVE)
   return target;
 }
 
-int CS_MOVE::ByteSize() const {
+int CG_MOVE::ByteSize() const {
   int total_size = 0;
 
   if (_has_bits_[0 / 32] & (0xffu << (0 % 32))) {
@@ -702,10 +702,10 @@ int CS_MOVE::ByteSize() const {
   return total_size;
 }
 
-void CS_MOVE::MergeFrom(const ::google::protobuf::Message& from) {
+void CG_MOVE::MergeFrom(const ::google::protobuf::Message& from) {
   GOOGLE_CHECK_NE(&from, this);
-  const CS_MOVE* source =
-    ::google::protobuf::internal::dynamic_cast_if_available<const CS_MOVE*>(
+  const CG_MOVE* source =
+    ::google::protobuf::internal::dynamic_cast_if_available<const CG_MOVE*>(
       &from);
   if (source == NULL) {
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
@@ -714,7 +714,7 @@ void CS_MOVE::MergeFrom(const ::google::protobuf::Message& from) {
   }
 }
 
-void CS_MOVE::MergeFrom(const CS_MOVE& from) {
+void CG_MOVE::MergeFrom(const CG_MOVE& from) {
   GOOGLE_CHECK_NE(&from, this);
   if (from._has_bits_[0 / 32] & (0xffu << (0 % 32))) {
     if (from.has_posx()) {
@@ -727,25 +727,25 @@ void CS_MOVE::MergeFrom(const CS_MOVE& from) {
   mutable_unknown_fields()->MergeFrom(from.unknown_fields());
 }
 
-void CS_MOVE::CopyFrom(const ::google::protobuf::Message& from) {
+void CG_MOVE::CopyFrom(const ::google::protobuf::Message& from) {
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
-void CS_MOVE::CopyFrom(const CS_MOVE& from) {
+void CG_MOVE::CopyFrom(const CG_MOVE& from) {
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
-bool CS_MOVE::IsInitialized() const {
+bool CG_MOVE::IsInitialized() const {
   if ((_has_bits_[0] & 0x00000003) != 0x00000003) return false;
 
   return true;
 }
 
-void CS_MOVE::Swap(CS_MOVE* other) {
+void CG_MOVE::Swap(CG_MOVE* other) {
   if (other != this) {
     std::swap(posx_, other->posx_);
     std::swap(posy_, other->posy_);
@@ -755,11 +755,11 @@ void CS_MOVE::Swap(CS_MOVE* other) {
   }
 }
 
-::google::protobuf::Metadata CS_MOVE::GetMetadata() const {
+::google::protobuf::Metadata CG_MOVE::GetMetadata() const {
   protobuf_AssignDescriptorsOnce();
   ::google::protobuf::Metadata metadata;
-  metadata.descriptor = CS_MOVE_descriptor_;
-  metadata.reflection = CS_MOVE_reflection_;
+  metadata.descriptor = CG_MOVE_descriptor_;
+  metadata.reflection = CG_MOVE_reflection_;
   return metadata;
 }
 
@@ -767,67 +767,67 @@ void CS_MOVE::Swap(CS_MOVE* other) {
 // ===================================================================
 
 #ifndef _MSC_VER
-const int SC_MOVE_RET::kPosxFieldNumber;
-const int SC_MOVE_RET::kPosyFieldNumber;
+const int GC_MOVE_RET::kPosxFieldNumber;
+const int GC_MOVE_RET::kPosyFieldNumber;
 #endif  // !_MSC_VER
 
-SC_MOVE_RET::SC_MOVE_RET()
+GC_MOVE_RET::GC_MOVE_RET()
   : ::google::protobuf::Message() {
   SharedCtor();
-  // @@protoc_insertion_point(constructor:ProtobufPacket.SC_MOVE_RET)
+  // @@protoc_insertion_point(constructor:ProtobufPacket.GC_MOVE_RET)
 }
 
-void SC_MOVE_RET::InitAsDefaultInstance() {
+void GC_MOVE_RET::InitAsDefaultInstance() {
 }
 
-SC_MOVE_RET::SC_MOVE_RET(const SC_MOVE_RET& from)
+GC_MOVE_RET::GC_MOVE_RET(const GC_MOVE_RET& from)
   : ::google::protobuf::Message() {
   SharedCtor();
   MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:ProtobufPacket.SC_MOVE_RET)
+  // @@protoc_insertion_point(copy_constructor:ProtobufPacket.GC_MOVE_RET)
 }
 
-void SC_MOVE_RET::SharedCtor() {
+void GC_MOVE_RET::SharedCtor() {
   _cached_size_ = 0;
   posx_ = 0;
   posy_ = 0;
   ::memset(_has_bits_, 0, sizeof(_has_bits_));
 }
 
-SC_MOVE_RET::~SC_MOVE_RET() {
-  // @@protoc_insertion_point(destructor:ProtobufPacket.SC_MOVE_RET)
+GC_MOVE_RET::~GC_MOVE_RET() {
+  // @@protoc_insertion_point(destructor:ProtobufPacket.GC_MOVE_RET)
   SharedDtor();
 }
 
-void SC_MOVE_RET::SharedDtor() {
+void GC_MOVE_RET::SharedDtor() {
   if (this != default_instance_) {
   }
 }
 
-void SC_MOVE_RET::SetCachedSize(int size) const {
+void GC_MOVE_RET::SetCachedSize(int size) const {
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
   _cached_size_ = size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
 }
-const ::google::protobuf::Descriptor* SC_MOVE_RET::descriptor() {
+const ::google::protobuf::Descriptor* GC_MOVE_RET::descriptor() {
   protobuf_AssignDescriptorsOnce();
-  return SC_MOVE_RET_descriptor_;
+  return GC_MOVE_RET_descriptor_;
 }
 
-const SC_MOVE_RET& SC_MOVE_RET::default_instance() {
+const GC_MOVE_RET& GC_MOVE_RET::default_instance() {
   if (default_instance_ == NULL) protobuf_AddDesc_PBMessage_2eproto();
   return *default_instance_;
 }
 
-SC_MOVE_RET* SC_MOVE_RET::default_instance_ = NULL;
+GC_MOVE_RET* GC_MOVE_RET::default_instance_ = NULL;
 
-SC_MOVE_RET* SC_MOVE_RET::New() const {
-  return new SC_MOVE_RET;
+GC_MOVE_RET* GC_MOVE_RET::New() const {
+  return new GC_MOVE_RET;
 }
 
-void SC_MOVE_RET::Clear() {
+void GC_MOVE_RET::Clear() {
 #define OFFSET_OF_FIELD_(f) (reinterpret_cast<char*>(      \
-  &reinterpret_cast<SC_MOVE_RET*>(16)->f) - \
+  &reinterpret_cast<GC_MOVE_RET*>(16)->f) - \
    reinterpret_cast<char*>(16))
 
 #define ZR_(first, last) do {                              \
@@ -845,11 +845,11 @@ void SC_MOVE_RET::Clear() {
   mutable_unknown_fields()->Clear();
 }
 
-bool SC_MOVE_RET::MergePartialFromCodedStream(
+bool GC_MOVE_RET::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:ProtobufPacket.SC_MOVE_RET)
+  // @@protoc_insertion_point(parse_start:ProtobufPacket.GC_MOVE_RET)
   for (;;) {
     ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
     tag = p.first;
@@ -898,17 +898,17 @@ bool SC_MOVE_RET::MergePartialFromCodedStream(
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:ProtobufPacket.SC_MOVE_RET)
+  // @@protoc_insertion_point(parse_success:ProtobufPacket.GC_MOVE_RET)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:ProtobufPacket.SC_MOVE_RET)
+  // @@protoc_insertion_point(parse_failure:ProtobufPacket.GC_MOVE_RET)
   return false;
 #undef DO_
 }
 
-void SC_MOVE_RET::SerializeWithCachedSizes(
+void GC_MOVE_RET::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:ProtobufPacket.SC_MOVE_RET)
+  // @@protoc_insertion_point(serialize_start:ProtobufPacket.GC_MOVE_RET)
   // required float posx = 1;
   if (has_posx()) {
     ::google::protobuf::internal::WireFormatLite::WriteFloat(1, this->posx(), output);
@@ -923,12 +923,12 @@ void SC_MOVE_RET::SerializeWithCachedSizes(
     ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
         unknown_fields(), output);
   }
-  // @@protoc_insertion_point(serialize_end:ProtobufPacket.SC_MOVE_RET)
+  // @@protoc_insertion_point(serialize_end:ProtobufPacket.GC_MOVE_RET)
 }
 
-::google::protobuf::uint8* SC_MOVE_RET::SerializeWithCachedSizesToArray(
+::google::protobuf::uint8* GC_MOVE_RET::SerializeWithCachedSizesToArray(
     ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:ProtobufPacket.SC_MOVE_RET)
+  // @@protoc_insertion_point(serialize_to_array_start:ProtobufPacket.GC_MOVE_RET)
   // required float posx = 1;
   if (has_posx()) {
     target = ::google::protobuf::internal::WireFormatLite::WriteFloatToArray(1, this->posx(), target);
@@ -943,11 +943,11 @@ void SC_MOVE_RET::SerializeWithCachedSizes(
     target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
         unknown_fields(), target);
   }
-  // @@protoc_insertion_point(serialize_to_array_end:ProtobufPacket.SC_MOVE_RET)
+  // @@protoc_insertion_point(serialize_to_array_end:ProtobufPacket.GC_MOVE_RET)
   return target;
 }
 
-int SC_MOVE_RET::ByteSize() const {
+int GC_MOVE_RET::ByteSize() const {
   int total_size = 0;
 
   if (_has_bits_[0 / 32] & (0xffu << (0 % 32))) {
@@ -973,10 +973,10 @@ int SC_MOVE_RET::ByteSize() const {
   return total_size;
 }
 
-void SC_MOVE_RET::MergeFrom(const ::google::protobuf::Message& from) {
+void GC_MOVE_RET::MergeFrom(const ::google::protobuf::Message& from) {
   GOOGLE_CHECK_NE(&from, this);
-  const SC_MOVE_RET* source =
-    ::google::protobuf::internal::dynamic_cast_if_available<const SC_MOVE_RET*>(
+  const GC_MOVE_RET* source =
+    ::google::protobuf::internal::dynamic_cast_if_available<const GC_MOVE_RET*>(
       &from);
   if (source == NULL) {
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
@@ -985,7 +985,7 @@ void SC_MOVE_RET::MergeFrom(const ::google::protobuf::Message& from) {
   }
 }
 
-void SC_MOVE_RET::MergeFrom(const SC_MOVE_RET& from) {
+void GC_MOVE_RET::MergeFrom(const GC_MOVE_RET& from) {
   GOOGLE_CHECK_NE(&from, this);
   if (from._has_bits_[0 / 32] & (0xffu << (0 % 32))) {
     if (from.has_posx()) {
@@ -998,25 +998,25 @@ void SC_MOVE_RET::MergeFrom(const SC_MOVE_RET& from) {
   mutable_unknown_fields()->MergeFrom(from.unknown_fields());
 }
 
-void SC_MOVE_RET::CopyFrom(const ::google::protobuf::Message& from) {
+void GC_MOVE_RET::CopyFrom(const ::google::protobuf::Message& from) {
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
-void SC_MOVE_RET::CopyFrom(const SC_MOVE_RET& from) {
+void GC_MOVE_RET::CopyFrom(const GC_MOVE_RET& from) {
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
-bool SC_MOVE_RET::IsInitialized() const {
+bool GC_MOVE_RET::IsInitialized() const {
   if ((_has_bits_[0] & 0x00000003) != 0x00000003) return false;
 
   return true;
 }
 
-void SC_MOVE_RET::Swap(SC_MOVE_RET* other) {
+void GC_MOVE_RET::Swap(GC_MOVE_RET* other) {
   if (other != this) {
     std::swap(posx_, other->posx_);
     std::swap(posy_, other->posy_);
@@ -1026,11 +1026,11 @@ void SC_MOVE_RET::Swap(SC_MOVE_RET* other) {
   }
 }
 
-::google::protobuf::Metadata SC_MOVE_RET::GetMetadata() const {
+::google::protobuf::Metadata GC_MOVE_RET::GetMetadata() const {
   protobuf_AssignDescriptorsOnce();
   ::google::protobuf::Metadata metadata;
-  metadata.descriptor = SC_MOVE_RET_descriptor_;
-  metadata.reflection = SC_MOVE_RET_reflection_;
+  metadata.descriptor = GC_MOVE_RET_descriptor_;
+  metadata.reflection = GC_MOVE_RET_reflection_;
   return metadata;
 }
 

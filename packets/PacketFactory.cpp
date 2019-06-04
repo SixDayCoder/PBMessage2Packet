@@ -1,8 +1,8 @@
 
     #include "PacketFactory.h"
-    #include "CS_LOGIN_PAK.h"
-	#include "CS_MOVE_PAK.h"
-	#include "SC_MOVE_RET_PAK.h"
+    #include "CG_LOGIN_PAK.h"
+	#include "CG_MOVE_PAK.h"
+	#include "GC_MOVE_RET_PAK.h"
 	
 
     namespace packets
@@ -27,9 +27,9 @@
 		    }
 		    switch (nPacketId)
 		    {
-            case PACKET_ID::PACKET_ID_CS_LOGIN : m_PacketIdList[nPacketId]++; return std::make_shared<CS_LOGIN_PAK>();
-		    case PACKET_ID::PACKET_ID_CS_MOVE : m_PacketIdList[nPacketId]++; return std::make_shared<CS_MOVE_PAK>();
-		    case PACKET_ID::PACKET_ID_SC_MOVE_RET : m_PacketIdList[nPacketId]++; return std::make_shared<SC_MOVE_RET_PAK>();
+            case PACKET_ID::PACKET_ID_CG_LOGIN : m_PacketIdList[nPacketId]++; return std::make_shared<CG_LOGIN_PAK>();
+		    case PACKET_ID::PACKET_ID_CG_MOVE : m_PacketIdList[nPacketId]++; return std::make_shared<CG_MOVE_PAK>();
+		    case PACKET_ID::PACKET_ID_GC_MOVE_RET : m_PacketIdList[nPacketId]++; return std::make_shared<GC_MOVE_RET_PAK>();
 		    
 		    default:
 			    return nullptr;

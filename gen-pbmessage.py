@@ -37,7 +37,7 @@ xml_case_create_packet = "${CaseCreatePacket}"
 
 
 # startwith
-packet_start_with = ["CS", "SC"]
+packet_start_with = ["CG", "GC"]
 
 
 def get_packet_name_enum(packet_name, id, is_add_end_line):

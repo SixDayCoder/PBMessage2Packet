@@ -33,20 +33,20 @@ void  protobuf_AddDesc_PBMessage_2eproto();
 void protobuf_AssignDesc_PBMessage_2eproto();
 void protobuf_ShutdownFile_PBMessage_2eproto();
 
-class CS_LOGIN;
-class CS_MOVE;
-class SC_MOVE_RET;
+class CG_LOGIN;
+class CG_MOVE;
+class GC_MOVE_RET;
 
 // ===================================================================
 
-class CS_LOGIN : public ::google::protobuf::Message {
+class CG_LOGIN : public ::google::protobuf::Message {
  public:
-  CS_LOGIN();
-  virtual ~CS_LOGIN();
+  CG_LOGIN();
+  virtual ~CG_LOGIN();
 
-  CS_LOGIN(const CS_LOGIN& from);
+  CG_LOGIN(const CG_LOGIN& from);
 
-  inline CS_LOGIN& operator=(const CS_LOGIN& from) {
+  inline CG_LOGIN& operator=(const CG_LOGIN& from) {
     CopyFrom(from);
     return *this;
   }
@@ -60,17 +60,17 @@ class CS_LOGIN : public ::google::protobuf::Message {
   }
 
   static const ::google::protobuf::Descriptor* descriptor();
-  static const CS_LOGIN& default_instance();
+  static const CG_LOGIN& default_instance();
 
-  void Swap(CS_LOGIN* other);
+  void Swap(CG_LOGIN* other);
 
   // implements Message ----------------------------------------------
 
-  CS_LOGIN* New() const;
+  CG_LOGIN* New() const;
   void CopyFrom(const ::google::protobuf::Message& from);
   void MergeFrom(const ::google::protobuf::Message& from);
-  void CopyFrom(const CS_LOGIN& from);
-  void MergeFrom(const CS_LOGIN& from);
+  void CopyFrom(const CG_LOGIN& from);
+  void MergeFrom(const CG_LOGIN& from);
   void Clear();
   bool IsInitialized() const;
 
@@ -123,7 +123,7 @@ class CS_LOGIN : public ::google::protobuf::Message {
   inline ::std::string* release_password();
   inline void set_allocated_password(::std::string* password);
 
-  // @@protoc_insertion_point(class_scope:ProtobufPacket.CS_LOGIN)
+  // @@protoc_insertion_point(class_scope:ProtobufPacket.CG_LOGIN)
  private:
   inline void set_has_id();
   inline void clear_has_id();
@@ -144,18 +144,18 @@ class CS_LOGIN : public ::google::protobuf::Message {
   friend void protobuf_ShutdownFile_PBMessage_2eproto();
 
   void InitAsDefaultInstance();
-  static CS_LOGIN* default_instance_;
+  static CG_LOGIN* default_instance_;
 };
 // -------------------------------------------------------------------
 
-class CS_MOVE : public ::google::protobuf::Message {
+class CG_MOVE : public ::google::protobuf::Message {
  public:
-  CS_MOVE();
-  virtual ~CS_MOVE();
+  CG_MOVE();
+  virtual ~CG_MOVE();
 
-  CS_MOVE(const CS_MOVE& from);
+  CG_MOVE(const CG_MOVE& from);
 
-  inline CS_MOVE& operator=(const CS_MOVE& from) {
+  inline CG_MOVE& operator=(const CG_MOVE& from) {
     CopyFrom(from);
     return *this;
   }
@@ -169,17 +169,17 @@ class CS_MOVE : public ::google::protobuf::Message {
   }
 
   static const ::google::protobuf::Descriptor* descriptor();
-  static const CS_MOVE& default_instance();
+  static const CG_MOVE& default_instance();
 
-  void Swap(CS_MOVE* other);
+  void Swap(CG_MOVE* other);
 
   // implements Message ----------------------------------------------
 
-  CS_MOVE* New() const;
+  CG_MOVE* New() const;
   void CopyFrom(const ::google::protobuf::Message& from);
   void MergeFrom(const ::google::protobuf::Message& from);
-  void CopyFrom(const CS_MOVE& from);
-  void MergeFrom(const CS_MOVE& from);
+  void CopyFrom(const CG_MOVE& from);
+  void MergeFrom(const CG_MOVE& from);
   void Clear();
   bool IsInitialized() const;
 
@@ -215,7 +215,7 @@ class CS_MOVE : public ::google::protobuf::Message {
   inline float posy() const;
   inline void set_posy(float value);
 
-  // @@protoc_insertion_point(class_scope:ProtobufPacket.CS_MOVE)
+  // @@protoc_insertion_point(class_scope:ProtobufPacket.CG_MOVE)
  private:
   inline void set_has_posx();
   inline void clear_has_posx();
@@ -233,18 +233,18 @@ class CS_MOVE : public ::google::protobuf::Message {
   friend void protobuf_ShutdownFile_PBMessage_2eproto();
 
   void InitAsDefaultInstance();
-  static CS_MOVE* default_instance_;
+  static CG_MOVE* default_instance_;
 };
 // -------------------------------------------------------------------
 
-class SC_MOVE_RET : public ::google::protobuf::Message {
+class GC_MOVE_RET : public ::google::protobuf::Message {
  public:
-  SC_MOVE_RET();
-  virtual ~SC_MOVE_RET();
+  GC_MOVE_RET();
+  virtual ~GC_MOVE_RET();
 
-  SC_MOVE_RET(const SC_MOVE_RET& from);
+  GC_MOVE_RET(const GC_MOVE_RET& from);
 
-  inline SC_MOVE_RET& operator=(const SC_MOVE_RET& from) {
+  inline GC_MOVE_RET& operator=(const GC_MOVE_RET& from) {
     CopyFrom(from);
     return *this;
   }
@@ -258,17 +258,17 @@ class SC_MOVE_RET : public ::google::protobuf::Message {
   }
 
   static const ::google::protobuf::Descriptor* descriptor();
-  static const SC_MOVE_RET& default_instance();
+  static const GC_MOVE_RET& default_instance();
 
-  void Swap(SC_MOVE_RET* other);
+  void Swap(GC_MOVE_RET* other);
 
   // implements Message ----------------------------------------------
 
-  SC_MOVE_RET* New() const;
+  GC_MOVE_RET* New() const;
   void CopyFrom(const ::google::protobuf::Message& from);
   void MergeFrom(const ::google::protobuf::Message& from);
-  void CopyFrom(const SC_MOVE_RET& from);
-  void MergeFrom(const SC_MOVE_RET& from);
+  void CopyFrom(const GC_MOVE_RET& from);
+  void MergeFrom(const GC_MOVE_RET& from);
   void Clear();
   bool IsInitialized() const;
 
@@ -304,7 +304,7 @@ class SC_MOVE_RET : public ::google::protobuf::Message {
   inline float posy() const;
   inline void set_posy(float value);
 
-  // @@protoc_insertion_point(class_scope:ProtobufPacket.SC_MOVE_RET)
+  // @@protoc_insertion_point(class_scope:ProtobufPacket.GC_MOVE_RET)
  private:
   inline void set_has_posx();
   inline void clear_has_posx();
@@ -322,92 +322,92 @@ class SC_MOVE_RET : public ::google::protobuf::Message {
   friend void protobuf_ShutdownFile_PBMessage_2eproto();
 
   void InitAsDefaultInstance();
-  static SC_MOVE_RET* default_instance_;
+  static GC_MOVE_RET* default_instance_;
 };
 // ===================================================================
 
 
 // ===================================================================
 
-// CS_LOGIN
+// CG_LOGIN
 
 // required int32 id = 1;
-inline bool CS_LOGIN::has_id() const {
+inline bool CG_LOGIN::has_id() const {
   return (_has_bits_[0] & 0x00000001u) != 0;
 }
-inline void CS_LOGIN::set_has_id() {
+inline void CG_LOGIN::set_has_id() {
   _has_bits_[0] |= 0x00000001u;
 }
-inline void CS_LOGIN::clear_has_id() {
+inline void CG_LOGIN::clear_has_id() {
   _has_bits_[0] &= ~0x00000001u;
 }
-inline void CS_LOGIN::clear_id() {
+inline void CG_LOGIN::clear_id() {
   id_ = 0;
   clear_has_id();
 }
-inline ::google::protobuf::int32 CS_LOGIN::id() const {
-  // @@protoc_insertion_point(field_get:ProtobufPacket.CS_LOGIN.id)
+inline ::google::protobuf::int32 CG_LOGIN::id() const {
+  // @@protoc_insertion_point(field_get:ProtobufPacket.CG_LOGIN.id)
   return id_;
 }
-inline void CS_LOGIN::set_id(::google::protobuf::int32 value) {
+inline void CG_LOGIN::set_id(::google::protobuf::int32 value) {
   set_has_id();
   id_ = value;
-  // @@protoc_insertion_point(field_set:ProtobufPacket.CS_LOGIN.id)
+  // @@protoc_insertion_point(field_set:ProtobufPacket.CG_LOGIN.id)
 }
 
 // required string account = 2;
-inline bool CS_LOGIN::has_account() const {
+inline bool CG_LOGIN::has_account() const {
   return (_has_bits_[0] & 0x00000002u) != 0;
 }
-inline void CS_LOGIN::set_has_account() {
+inline void CG_LOGIN::set_has_account() {
   _has_bits_[0] |= 0x00000002u;
 }
-inline void CS_LOGIN::clear_has_account() {
+inline void CG_LOGIN::clear_has_account() {
   _has_bits_[0] &= ~0x00000002u;
 }
-inline void CS_LOGIN::clear_account() {
+inline void CG_LOGIN::clear_account() {
   if (account_ != &::google::protobuf::internal::GetEmptyStringAlreadyInited()) {
     account_->clear();
   }
   clear_has_account();
 }
-inline const ::std::string& CS_LOGIN::account() const {
-  // @@protoc_insertion_point(field_get:ProtobufPacket.CS_LOGIN.account)
+inline const ::std::string& CG_LOGIN::account() const {
+  // @@protoc_insertion_point(field_get:ProtobufPacket.CG_LOGIN.account)
   return *account_;
 }
-inline void CS_LOGIN::set_account(const ::std::string& value) {
+inline void CG_LOGIN::set_account(const ::std::string& value) {
   set_has_account();
   if (account_ == &::google::protobuf::internal::GetEmptyStringAlreadyInited()) {
     account_ = new ::std::string;
   }
   account_->assign(value);
-  // @@protoc_insertion_point(field_set:ProtobufPacket.CS_LOGIN.account)
+  // @@protoc_insertion_point(field_set:ProtobufPacket.CG_LOGIN.account)
 }
-inline void CS_LOGIN::set_account(const char* value) {
+inline void CG_LOGIN::set_account(const char* value) {
   set_has_account();
   if (account_ == &::google::protobuf::internal::GetEmptyStringAlreadyInited()) {
     account_ = new ::std::string;
   }
   account_->assign(value);
-  // @@protoc_insertion_point(field_set_char:ProtobufPacket.CS_LOGIN.account)
+  // @@protoc_insertion_point(field_set_char:ProtobufPacket.CG_LOGIN.account)
 }
-inline void CS_LOGIN::set_account(const char* value, size_t size) {
+inline void CG_LOGIN::set_account(const char* value, size_t size) {
   set_has_account();
   if (account_ == &::google::protobuf::internal::GetEmptyStringAlreadyInited()) {
     account_ = new ::std::string;
   }
   account_->assign(reinterpret_cast<const char*>(value), size);
-  // @@protoc_insertion_point(field_set_pointer:ProtobufPacket.CS_LOGIN.account)
+  // @@protoc_insertion_point(field_set_pointer:ProtobufPacket.CG_LOGIN.account)
 }
-inline ::std::string* CS_LOGIN::mutable_account() {
+inline ::std::string* CG_LOGIN::mutable_account() {
   set_has_account();
   if (account_ == &::google::protobuf::internal::GetEmptyStringAlreadyInited()) {
     account_ = new ::std::string;
   }
-  // @@protoc_insertion_point(field_mutable:ProtobufPacket.CS_LOGIN.account)
+  // @@protoc_insertion_point(field_mutable:ProtobufPacket.CG_LOGIN.account)
   return account_;
 }
-inline ::std::string* CS_LOGIN::release_account() {
+inline ::std::string* CG_LOGIN::release_account() {
   clear_has_account();
   if (account_ == &::google::protobuf::internal::GetEmptyStringAlreadyInited()) {
     return NULL;
@@ -417,7 +417,7 @@ inline ::std::string* CS_LOGIN::release_account() {
     return temp;
   }
 }
-inline void CS_LOGIN::set_allocated_account(::std::string* account) {
+inline void CG_LOGIN::set_allocated_account(::std::string* account) {
   if (account_ != &::google::protobuf::internal::GetEmptyStringAlreadyInited()) {
     delete account_;
   }
@@ -428,62 +428,62 @@ inline void CS_LOGIN::set_allocated_account(::std::string* account) {
     clear_has_account();
     account_ = const_cast< ::std::string*>(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   }
-  // @@protoc_insertion_point(field_set_allocated:ProtobufPacket.CS_LOGIN.account)
+  // @@protoc_insertion_point(field_set_allocated:ProtobufPacket.CG_LOGIN.account)
 }
 
 // required string password = 3;
-inline bool CS_LOGIN::has_password() const {
+inline bool CG_LOGIN::has_password() const {
   return (_has_bits_[0] & 0x00000004u) != 0;
 }
-inline void CS_LOGIN::set_has_password() {
+inline void CG_LOGIN::set_has_password() {
   _has_bits_[0] |= 0x00000004u;
 }
-inline void CS_LOGIN::clear_has_password() {
+inline void CG_LOGIN::clear_has_password() {
   _has_bits_[0] &= ~0x00000004u;
 }
-inline void CS_LOGIN::clear_password() {
+inline void CG_LOGIN::clear_password() {
   if (password_ != &::google::protobuf::internal::GetEmptyStringAlreadyInited()) {
     password_->clear();
   }
   clear_has_password();
 }
-inline const ::std::string& CS_LOGIN::password() const {
-  // @@protoc_insertion_point(field_get:ProtobufPacket.CS_LOGIN.password)
+inline const ::std::string& CG_LOGIN::password() const {
+  // @@protoc_insertion_point(field_get:ProtobufPacket.CG_LOGIN.password)
   return *password_;
 }
-inline void CS_LOGIN::set_password(const ::std::string& value) {
+inline void CG_LOGIN::set_password(const ::std::string& value) {
   set_has_password();
   if (password_ == &::google::protobuf::internal::GetEmptyStringAlreadyInited()) {
     password_ = new ::std::string;
   }
   password_->assign(value);
-  // @@protoc_insertion_point(field_set:ProtobufPacket.CS_LOGIN.password)
+  // @@protoc_insertion_point(field_set:ProtobufPacket.CG_LOGIN.password)
 }
-inline void CS_LOGIN::set_password(const char* value) {
+inline void CG_LOGIN::set_password(const char* value) {
   set_has_password();
   if (password_ == &::google::protobuf::internal::GetEmptyStringAlreadyInited()) {
     password_ = new ::std::string;
   }
   password_->assign(value);
-  // @@protoc_insertion_point(field_set_char:ProtobufPacket.CS_LOGIN.password)
+  // @@protoc_insertion_point(field_set_char:ProtobufPacket.CG_LOGIN.password)
 }
-inline void CS_LOGIN::set_password(const char* value, size_t size) {
+inline void CG_LOGIN::set_password(const char* value, size_t size) {
   set_has_password();
   if (password_ == &::google::protobuf::internal::GetEmptyStringAlreadyInited()) {
     password_ = new ::std::string;
   }
   password_->assign(reinterpret_cast<const char*>(value), size);
-  // @@protoc_insertion_point(field_set_pointer:ProtobufPacket.CS_LOGIN.password)
+  // @@protoc_insertion_point(field_set_pointer:ProtobufPacket.CG_LOGIN.password)
 }
-inline ::std::string* CS_LOGIN::mutable_password() {
+inline ::std::string* CG_LOGIN::mutable_password() {
   set_has_password();
   if (password_ == &::google::protobuf::internal::GetEmptyStringAlreadyInited()) {
     password_ = new ::std::string;
   }
-  // @@protoc_insertion_point(field_mutable:ProtobufPacket.CS_LOGIN.password)
+  // @@protoc_insertion_point(field_mutable:ProtobufPacket.CG_LOGIN.password)
   return password_;
 }
-inline ::std::string* CS_LOGIN::release_password() {
+inline ::std::string* CG_LOGIN::release_password() {
   clear_has_password();
   if (password_ == &::google::protobuf::internal::GetEmptyStringAlreadyInited()) {
     return NULL;
@@ -493,7 +493,7 @@ inline ::std::string* CS_LOGIN::release_password() {
     return temp;
   }
 }
-inline void CS_LOGIN::set_allocated_password(::std::string* password) {
+inline void CG_LOGIN::set_allocated_password(::std::string* password) {
   if (password_ != &::google::protobuf::internal::GetEmptyStringAlreadyInited()) {
     delete password_;
   }
@@ -504,111 +504,111 @@ inline void CS_LOGIN::set_allocated_password(::std::string* password) {
     clear_has_password();
     password_ = const_cast< ::std::string*>(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   }
-  // @@protoc_insertion_point(field_set_allocated:ProtobufPacket.CS_LOGIN.password)
+  // @@protoc_insertion_point(field_set_allocated:ProtobufPacket.CG_LOGIN.password)
 }
 
 // -------------------------------------------------------------------
 
-// CS_MOVE
+// CG_MOVE
 
 // required float posx = 1;
-inline bool CS_MOVE::has_posx() const {
+inline bool CG_MOVE::has_posx() const {
   return (_has_bits_[0] & 0x00000001u) != 0;
 }
-inline void CS_MOVE::set_has_posx() {
+inline void CG_MOVE::set_has_posx() {
   _has_bits_[0] |= 0x00000001u;
 }
-inline void CS_MOVE::clear_has_posx() {
+inline void CG_MOVE::clear_has_posx() {
   _has_bits_[0] &= ~0x00000001u;
 }
-inline void CS_MOVE::clear_posx() {
+inline void CG_MOVE::clear_posx() {
   posx_ = 0;
   clear_has_posx();
 }
-inline float CS_MOVE::posx() const {
-  // @@protoc_insertion_point(field_get:ProtobufPacket.CS_MOVE.posx)
+inline float CG_MOVE::posx() const {
+  // @@protoc_insertion_point(field_get:ProtobufPacket.CG_MOVE.posx)
   return posx_;
 }
-inline void CS_MOVE::set_posx(float value) {
+inline void CG_MOVE::set_posx(float value) {
   set_has_posx();
   posx_ = value;
-  // @@protoc_insertion_point(field_set:ProtobufPacket.CS_MOVE.posx)
+  // @@protoc_insertion_point(field_set:ProtobufPacket.CG_MOVE.posx)
 }
 
 // required float posy = 2;
-inline bool CS_MOVE::has_posy() const {
+inline bool CG_MOVE::has_posy() const {
   return (_has_bits_[0] & 0x00000002u) != 0;
 }
-inline void CS_MOVE::set_has_posy() {
+inline void CG_MOVE::set_has_posy() {
   _has_bits_[0] |= 0x00000002u;
 }
-inline void CS_MOVE::clear_has_posy() {
+inline void CG_MOVE::clear_has_posy() {
   _has_bits_[0] &= ~0x00000002u;
 }
-inline void CS_MOVE::clear_posy() {
+inline void CG_MOVE::clear_posy() {
   posy_ = 0;
   clear_has_posy();
 }
-inline float CS_MOVE::posy() const {
-  // @@protoc_insertion_point(field_get:ProtobufPacket.CS_MOVE.posy)
+inline float CG_MOVE::posy() const {
+  // @@protoc_insertion_point(field_get:ProtobufPacket.CG_MOVE.posy)
   return posy_;
 }
-inline void CS_MOVE::set_posy(float value) {
+inline void CG_MOVE::set_posy(float value) {
   set_has_posy();
   posy_ = value;
-  // @@protoc_insertion_point(field_set:ProtobufPacket.CS_MOVE.posy)
+  // @@protoc_insertion_point(field_set:ProtobufPacket.CG_MOVE.posy)
 }
 
 // -------------------------------------------------------------------
 
-// SC_MOVE_RET
+// GC_MOVE_RET
 
 // required float posx = 1;
-inline bool SC_MOVE_RET::has_posx() const {
+inline bool GC_MOVE_RET::has_posx() const {
   return (_has_bits_[0] & 0x00000001u) != 0;
 }
-inline void SC_MOVE_RET::set_has_posx() {
+inline void GC_MOVE_RET::set_has_posx() {
   _has_bits_[0] |= 0x00000001u;
 }
-inline void SC_MOVE_RET::clear_has_posx() {
+inline void GC_MOVE_RET::clear_has_posx() {
   _has_bits_[0] &= ~0x00000001u;
 }
-inline void SC_MOVE_RET::clear_posx() {
+inline void GC_MOVE_RET::clear_posx() {
   posx_ = 0;
   clear_has_posx();
 }
-inline float SC_MOVE_RET::posx() const {
-  // @@protoc_insertion_point(field_get:ProtobufPacket.SC_MOVE_RET.posx)
+inline float GC_MOVE_RET::posx() const {
+  // @@protoc_insertion_point(field_get:ProtobufPacket.GC_MOVE_RET.posx)
   return posx_;
 }
-inline void SC_MOVE_RET::set_posx(float value) {
+inline void GC_MOVE_RET::set_posx(float value) {
   set_has_posx();
   posx_ = value;
-  // @@protoc_insertion_point(field_set:ProtobufPacket.SC_MOVE_RET.posx)
+  // @@protoc_insertion_point(field_set:ProtobufPacket.GC_MOVE_RET.posx)
 }
 
 // required float posy = 2;
-inline bool SC_MOVE_RET::has_posy() const {
+inline bool GC_MOVE_RET::has_posy() const {
   return (_has_bits_[0] & 0x00000002u) != 0;
 }
-inline void SC_MOVE_RET::set_has_posy() {
+inline void GC_MOVE_RET::set_has_posy() {
   _has_bits_[0] |= 0x00000002u;
 }
-inline void SC_MOVE_RET::clear_has_posy() {
+inline void GC_MOVE_RET::clear_has_posy() {
   _has_bits_[0] &= ~0x00000002u;
 }
-inline void SC_MOVE_RET::clear_posy() {
+inline void GC_MOVE_RET::clear_posy() {
   posy_ = 0;
   clear_has_posy();
 }
-inline float SC_MOVE_RET::posy() const {
-  // @@protoc_insertion_point(field_get:ProtobufPacket.SC_MOVE_RET.posy)
+inline float GC_MOVE_RET::posy() const {
+  // @@protoc_insertion_point(field_get:ProtobufPacket.GC_MOVE_RET.posy)
   return posy_;
 }
-inline void SC_MOVE_RET::set_posy(float value) {
+inline void GC_MOVE_RET::set_posy(float value) {
   set_has_posy();
   posy_ = value;
-  // @@protoc_insertion_point(field_set:ProtobufPacket.SC_MOVE_RET.posy)
+  // @@protoc_insertion_point(field_set:ProtobufPacket.GC_MOVE_RET.posy)
 }
 
 
